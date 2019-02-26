@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-deployment-yaml
+spec:
+  selector:
+    matchLabels:
+      app: react
+    replicas: 2
+  template:
+    metadata:
+      labels:
+        app: react
+
+    spec:
+      containers:
+        - name: react
+          image: experiencedevops/reactapp:5a53367
+          ports:
+            - containerPort: 80
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: react-service-yaml
+
+spec:
+  selector:
+    app: react
+  ports:
+    - protocol: TCP 
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
