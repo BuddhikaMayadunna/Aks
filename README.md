@@ -1,7 +1,7 @@
 # Azure Kubernetes Service ( AKS )
 Welcome to AKS. 
 
-## What i learn here,
+## You will learn,
 
 * How to create an Azure portal.
 * How to create an Azure Kubernetes Cluster from the portal.
@@ -12,7 +12,7 @@ Welcome to AKS.
 * How to deploy Docker image to Azure Kubernetes Service ( AKS ) from YAML. 
 * How to scaling Kubernetes Cluster Manually.
 
-Plese follow the steps.
+Plese follow the step bys step.
 
 ## Introduction to Kubernetes
 
