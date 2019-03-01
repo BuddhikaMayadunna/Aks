@@ -6,7 +6,6 @@ Welcome to AKS.
 * How to create an Azure portal.
 * How to create an Azure Kubernetes Cluster from the portal.
 * How to create a Kubernetes Cluster using Azure Cloud Shell.
-* number 4
 * How to enable Kubernetes Dashboard.
 * How to deploy Docker image to Azure Kubernetes Service ( AKS ) from Dashboard.
 * How to deploy Docker image to Azure Kubernetes Service ( AKS ) from YAML. 
